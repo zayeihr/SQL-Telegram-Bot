@@ -1,0 +1,17 @@
+{
+    "name": "my-telegram-bot",
+    "version": "1.0.0",
+    "description": "Telegram bot that queries an SQL database",
+    "main": "bot.js",
+    "scripts": {
+      "start": "node bot.js"
+    },
+    "dependencies": {
+      "dotenv": "^10.0.0",
+      "express": "^4.17.1",
+      "pg": "^8.7.1",
+      "telegraf": "^4.4.0",
+      "body-parser": "^1.19.0"
+    }
+  }
+  
